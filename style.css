@@ -1,0 +1,105 @@
+/* Updated Styles with Lighter Background and Enhanced Attractiveness */
+#about {
+    color: rgb(94, 53, 177);
+    background-color: rgb(240, 248, 255); /* Lighter background */
+}
+
+#skills {
+    color: rgb(220, 20, 60);
+    background-color: rgb(255, 235, 235); /* Softer light pink */
+}
+
+#projects {
+    color: rgb(72, 61, 139);
+    background-color: rgb(255, 245, 221); /* Soft almond */
+}
+
+#Contact {
+    color: rgb(72, 61, 139);
+    background-color: rgb(255, 240, 245); /* Light pink for contact */
+}
+
+.about, .skills {
+    text-align: center;
+    padding: 20px; /* Added padding for more spacing */
+    font-family: 'Arial', sans-serif; /* Improved font readability */
+}
+
+img {
+    display: block;
+    margin: 0 auto; /* Centered images */
+    max-width: 100%;
+    height: auto;
+}
+
+nav {
+    text-align: center;
+    margin-top: 3%;
+    background-color: rgb(245, 245, 245); /* Light gray background for the nav */
+    padding: 10px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for a modern look */
+}
+
+.box3, .persnol {
+    background-color: rgb(248, 248, 255); /* Very light lavender background */
+    margin-top: 5%;
+    padding: 15px; /* Added padding */
+    border-radius: 12px; /* Rounded corners */
+}
+
+h2, h3 {
+    text-align: center;
+    color: black;
+    font-family: 'Verdana', sans-serif; /* Sleek font for headings */
+    background-color: transparent;
+    animation: none; /* Removed animated background */
+}
+
+.btn {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    display: flex; /* Improved layout */
+    justify-content: center;
+    gap: 10px;
+}
+
+.btn a {
+    color: white;
+    background-color: rgb(94, 53, 177); /* Rich purple */
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px; /* Rounded button shape */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+.btn a:hover {
+    background-color: rgb(0, 195, 98); /* Changed hover color */
+    transform: scale(1.05); /* Slight zoom effect */
+}
+
+.formm {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, sans-serif; /* Clean, modern font */
+}
+
+h2, h3 {
+    animation-name: changeColor;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out; /* Smoother color transitions */
+}
+
+@keyframes changeColor {
+    0%, 100% {
+        background-color: rgb(173, 216, 230); /* Light blue */
+    }
+    25% {
+        background-color: rgb(240, 255, 240); /* Light green */
+    }
+    50% {
+        background-color: rgb(255, 239, 213); /* Light peach */
+    }
+}
